@@ -4,7 +4,7 @@ Este projeto é um estudo de caso prático de análise de dados, focando na plat
 
 ### Conjunto de dados:
 
-<img width="640" height="362" alt="image" src="https://github.com/user-attachments/assets/6464ae4e-6e12-4002-bf41-65da0c6ae881" />
+<img width="780" height="380" alt="image" src="https://github.com/user-attachments/assets/6464ae4e-6e12-4002-bf41-65da0c6ae881" />
 
 ---
 
