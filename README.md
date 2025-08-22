@@ -186,9 +186,9 @@ Objetivo: Calcular o **total de dinheiro perdido por cada produtor** devido a ca
   
 ### Análise dos resultados
 
-- O produtor com maior perda foi o **producer_id = 1**, que acumulou **US$ 10,316.00** em cancelamentos e reembolsos, todos em produtos com recovery ativo.
+- O produtor com maior perda foi o **producer_id = 1**, que acumulou **$10.316,00** em cancelamentos e reembolsos, todos em produtos com recovery ativo.
 - Para a maioria dos produtores, todas as perdas aconteceram **exclusivamente em produtos com recovery ativo**, resultando em valores **zerados** para produtos sem recovery.
-- O **único** produtor que possui produtos com recovery desativado e apresentou perdas nesses casos foi o **`producer_id = 8`**, que perdeu **US$ 9,924.00** no total.
+- O **único** produtor que possui produtos com recovery desativado e apresentou perdas nesses casos foi o **`producer_id = 8`**, que perdeu **$9.924,00** no total.
 
 ```
 SELECT p.producer_id,
@@ -229,8 +229,8 @@ GROUP BY producer_id;
 ```
 <img width="489" height="61" alt="image" src="https://github.com/user-attachments/assets/6e46f714-bc63-4107-9f18-778187403e36" /> <br><br>
 
-- O produtor **8** perdeu **$9,924.00 no total**.
-- Desse valor, **71,66%** das perdas ($7,112.00) ocorreram em **produtos sem recovery**, enquanto apenas **28,34%** ($2,812.00) foram em produtos com recovery ativo.
+- O produtor **8** perdeu **$9.924,00 no total**.
+- Desse valor, **71,66%** das perdas ($7.112,00) ocorreram em **produtos sem recovery**, enquanto apenas **28,34%** ($2.812,00) foram em produtos com recovery ativo.
 - Esse é o único caso em que é possível comparar de forma direta o impacto da ferramenta de recuperação.
 
 ---
